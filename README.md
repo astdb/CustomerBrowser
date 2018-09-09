@@ -8,7 +8,7 @@ Configuration
 
 A working Go language installation is required to build and run the application from a machine which has network connectivity to the BigCommerce API endpoints. Instructions to download, install and configure Go for all major operating system platforms are available at https://golang.org/dl/ (for instance, Linux-specific information is available at https://dl.google.com/go/go1.11.linux-amd64.tar.gz). 
 
-Once Go is installed and available at a command line, navigate to the directory where CustomerBrowser.go file is located, and type 'go run CustomerBrowser.go' to run the application (alternatively, you can build a binary by running 'go build CustomerBrowser.go' and then running './CustomerBrowser'). The application will then start and available at http://localhost:8080/ 
+Once Go is installed and available at a command line, navigate to the directory where CustomerBrowser.go file is located, and type 'go run CustomerBrowser.go' to run the application (alternatively, you can build a binary by running 'go build CustomerBrowser.go' and then running './CustomerBrowser'). The application will then start and be available at http://localhost:8080/ 
 
 Code Design
 -----------
