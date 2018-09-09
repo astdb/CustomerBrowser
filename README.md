@@ -15,7 +15,7 @@ Code Design
 
 The application uses two main HTTP handler functions to provide the main customer list view and customer-specific view (mainHandler() and customerHandler()). These functions in turn use other functions for getting data from Customer and Orders APIs for display. 
 
- - main(): defines HTTP handler functions for main and customer views, and starts web server. 
+ - main(): defines HTTP handler functions for main and customer views and starts the HTTP server. 
  - mainHandler(): Reads page ID from URL and requests customer data for taht customer API page (API is read in 50-item pages). It stores customer information in a hashmap, gets order detail from orders API, updates the hashmap with order totals for each customer and displays them on a webpage. 
  - customerHandler(): Reads customer ID from URL, gets specific customer object from customers API, gets list of orders for that customer from orders API, and displays order/total value info on a webpage. 
  - APIPageValid(): Takes a page ID and checks if that's a valid page for customers API. It's used by the main view to provide back/forward links on the customer list web page. 
